@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  width: 80vw;
+  margin: auto;
+  text-align: justify;
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+h3,
+hr {
+  margin-top: 20px;
+}
+
+/* .who-was { */
+/*   display: flex; */
+/*   justify-content: space-between; */
+/* } */
+
+.who-was figure {
+  width: 220px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+.who-was img {
+  max-width: 100%;
+  height: auto;
+}
+
+.who-was section {
+  padding: 0 20px;
+}
+
+.more-work {
+  margin-left: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  clear: both;
+  margin-top: 10px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
